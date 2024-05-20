@@ -1,0 +1,92 @@
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+  
+    
+    
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    justify-content: center;
+   width: 400px;
+}
+
+
+.icon-left {
+    background-color: #92c4ec;
+    border-radius: 100px;
+    width: 40px; /* Fixed width for the left icon */
+    height: 40px; /* Fixed height for the left icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.content{
+    
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #fabfbf;
+    border-radius: 5px;
+    margin-left: 8px;
+    width: 100%; /* Ensure content takes up full width */
+    justify-content: space-between;
+
+}
+
+.right-content {
+    margin-left: 30px;
+    flex-grow: 1; /* Allow right-content to grow */
+    overflow: hidden; 
+}
+
+.name,
+.email {
+    margin-bottom: 5px;
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Display ellipsis for overflow text */
+    white-space: nowrap; 
+    
+}
+
+.name {
+    font-weight: bold;
+}
+
+
+.icon-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 238, 233);
+    width: 20px; /* Fixed width for the left icon */
+    height: 20px; 
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.icon-right:hover {
+    background-color: rgb(12, 1, 1); /* Color when hovered */
+    
+}
+
+.icon-right i {
+    cursor: pointer ; /* Add pointer cursor on hover */
+}
+
+.icon-right i:hover {
+    color: rgb(239, 242, 244); /* Color when hovered */
+}
+
+
+
+
